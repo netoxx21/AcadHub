@@ -1,0 +1,154 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: #0a1a4a;
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+}
+.container h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.campo {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    background-color: #1f3b8f;
+    color: white;
+}
+.campo::placeholder{
+    color: #d0d0d0;
+}
+.botao {
+    width: 100%;
+    padding: 12px;
+    background-color: #345ed5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*Tela home*/
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #22337a;
+    color: white;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 75px;
+    z-index: 1000;
+}
+
+.menu-usuario {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-hamburge {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.info-usuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-usuario h1 {
+    margin: 2px 0 0 0;
+    font-size: 18px;
+}
+
+.info-usuario p {
+    margin: 2px 0 0 0 ;
+    font-size: 14px;
+}
+
+.nome-sistema {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nome-sistema h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.cabecalho input {
+    padding: 6px 10px;
+    font-size: 14px;
+    max-width: 200px;
+}
+
+.conteudo {
+  display: flex;
+  flex-wrap: wrap;          
+  gap: 20px;                
+  padding: 20px;
+  justify-content: flex-start; 
+  align-items: flex-start;
+  text-align: left;     
+}
+
+
+.resumo {
+  background-color: #22337a;
+  color: white;
+  padding: 20px;
+  width: 180px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+
+.novo {
+  background-color: #7781b3;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* ===== RODAPÉ ===== */
+.rodape {
+  background-color: #3f7cd4;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
